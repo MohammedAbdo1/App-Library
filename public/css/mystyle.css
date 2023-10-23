@@ -1,0 +1,113 @@
+@media (min-width: 768px){
+    .sidebar .nav-item .nav-link {
+        
+        text-align: right !important;
+       
+    }}
+
+
+
+    .sidebar .nav-item .collapse .collapse-inner,
+    .sidebar .nav-item .collapsing .collapse-inner{text-align: right !important;}
+
+    @media (min-width: 768px){
+        .sidebar .sidebar-heading {
+            text-align: right;
+
+    }}
+
+    .card{
+        text-align: right !important;
+
+    }
+
+
+    .container-fluid{
+        text-align: right !important;
+    }
+
+
+    .tophad{
+
+        justify-content: space-between;
+        display: flex;
+        text-decoration: none;
+    }
+
+
+
+    .container {
+        padding: 16px;
+        background-color: white;
+        direction: rtl;
+        width: 50%;
+        margin: auto;
+        border-radius: 5px;
+        border: 1px solid #000;
+        
+       
+      }
+      
+      /* Full-width input fields */
+      input[type=text], input[type=password] {
+        width: 80%;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+      
+      input[type=text]:focus, input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+      
+      /* Overwrite default styles of hr */
+      hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+      }
+      
+      /* Set a style for the submit button */
+      .registerbtn {
+        background-color: #b85d1c;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 84%;
+        border-radius: 10px;
+        opacity: 0.9;
+      }
+      
+      .registerbtn:hover {
+        opacity: 1;
+      }
+      
+      /* Add a blue text color to links */
+      a {
+        color: dodgerblue;
+      }
+      
+      /* Set a grey background color and center the text of the "sign in" section */
+      .signin {
+        background-color: #f1f1f1;
+        text-align: center;
+      }
+
+      @media (max-width: 650px) {
+        .container {
+          width: 80%;
+        }
+      }
+
+
+
+
+
+
+
+      
